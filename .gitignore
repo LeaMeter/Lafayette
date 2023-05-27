@@ -1,24 +1,39 @@
-# Compiled class file
-*.class
+# Eclipse
+.classpath
+.project
+.settings/
 
-# Log file
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+*.iml
+
+# Spring Boot
+/bin/
+/boot/
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Camunda
+target/classes/META-INF/maven/org.camunda.bpm/
+*.camunda.spring.cfg.xml
+*.camunda.cfg.xml
+
+# Logs
+logs/
+
+# Miscellaneous
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
+*.swp
+*.tmp
+*~
+*.bak
+*.cache
+*.class
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
