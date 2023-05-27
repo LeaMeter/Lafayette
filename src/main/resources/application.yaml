@@ -1,0 +1,15 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    
+spring.mail:
+  host: smtp.gmail.com
+  port: 587
+  username: yourGmail
+  password: yourAppPassword
+  properties.mail.smtp:
+    auth: true
+    starttls.enable: true

@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "label": "Pack Cash ( $ )",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14716sl",
+        "columns": null
+      },
+      "id": "Field_0pk8xo6",
+      "key": "money",
+      "description": "How much cash do you want to bring?",
+      "validate": {
+        "required": true,
+        "pattern": "^(?:|[1-9][0-9]*)\\,[0-9]+$"
+      }
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bzp6ie",
+        "columns": null
+      },
+      "id": "Field_1nkrl5u",
+      "key": "country",
+      "description": "Country you are going to",
+      "validate": {
+        "required": true,
+        "pattern": "America|France"
+      },
+      "defaultValue": "America"
+    },
+    {
+      "label": "Email address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_19wkgv0",
+        "columns": null
+      },
+      "id": "Field_1ytyp88",
+      "key": "email",
+      "validate": {
+        "required": true,
+        "minLength": 6,
+        "maxLength": 320,
+        "pattern": "^[\\w\\-\\.]+@([\\w-]+\\.)+[\\w-]{2,}$"
+      },
+      "disabled": false,
+      "description": "Your email adress"
+    }
+  ],
+  "type": "default",
+  "id": "prepareForDepartureID",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

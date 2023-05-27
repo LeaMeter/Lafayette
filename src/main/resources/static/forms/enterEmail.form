@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "label": "Email address",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_006n0up",
+        "columns": null
+      },
+      "id": "Field_0nx0u9r",
+      "key": "email",
+      "description": "Your email adress",
+      "validate": {
+        "pattern": "^[\\w\\-\\.]+@([\\w-]+\\.)+[\\w-]{2,}$",
+        "minLength": 6,
+        "maxLength": 320,
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0dvfipk",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
